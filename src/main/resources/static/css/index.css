@@ -1,0 +1,178 @@
+/*body{
+    background: url(../img/votos.jpg) no-repeat center center fixed;
+    background-size: cover;
+}*/
+
+/*-------ESTILOS GENERALES DE LA PAGINA----------*/
+body {/*estilo general para el cuerpo de la hoja xhtml*/
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	/*background-color:#FBFCFD; /*color de fondo 3% del color del header
+	background-image:url(../img/bar-izquierda.png);
+	background-position:left;
+	background-repeat: repeat-y;*/
+}
+/*------------CONTENEDORES PRINCIPALES-------------*/
+#container {/*div que contiene todos los elementos de la p�gina*/
+	width:100%; /*usa todo el espacio que posee el monitor del usuario */
+	height:100%;
+}
+#container strong {/*define estilo al texto en negrita en toda la p�gina*/
+	font-size: 11px;
+	color: #0A2972;
+}
+#container hr {
+		border:solid 1px #B4C6E2 !important;
+}
+h1 {/*define estilo al titulo de los formularios*/
+	font-size: 12px;
+	/*color: #2A3FAA;*/
+	color:#557FAA;
+	text-transform: capitalize;
+	font-weight:bold;
+	cursor:default;
+}
+h2 {/*define estilo al titulo de los formularios*/
+	font-size: 12px;
+	/*color: #2A3FAA;*/
+	color:#557FAA;	
+	text-transform: capitalize;
+	font-weight:bold;
+	cursor:default;	
+}
+/*-------------HEADER---------------------*/
+#header {/*define estilo al contenedor de la cabecera de la p�gina*/
+	position:relative;
+	width:100%;
+	height:97px;/*tama�o del header sin el menu de navegacion */
+	/*background-image: url(../img/logos.png);*/
+	background-image: url(../img/head_ef_back.png);
+	background-color:#6B9CCA;
+	z-index: 99;
+}
+#header #login {/*contiene los elentos del logeo: nombre, institucion*/
+	position:absolute;
+	right:5px;
+	bottom:18px;	
+	width:auto;
+	height:10px;
+	font-size: 11px;
+	text-align:right;
+	color: #FFA;
+	border-top: solid 1px #A9C5E0;
+	cursor: default;
+}
+#header #login a {/*define estilo a los links dentro del login*/
+	color: #FFA;
+	text-decoration:none;
+}
+#header #login a:hover {/*define estilo a los links en el evento hover*/
+	color: #FFA;
+	text-decoration:none;
+}
+#header #login strong {/*define estilo al texto en negrita en el login*/
+	color: #FFFFFF;
+}
+/*--------*/
+#header #location-login {
+	position:absolute;
+	right:5px;
+	bottom:2px;	
+	width:auto;
+	height:15px;
+	font-size: 11px;
+	text-align:right;
+	color: #FFF;
+	cursor: default;
+}
+#header #location-login strong {
+	color: #FFF;
+}
+/*--------*/
+/*-----PIE DE PAGINA DE TODAS LAS PANTALLAS--------*/
+#pie-de-pagina {/*div que contiene todos los elementos del pie de pagina*/
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:87px;/*tamanio del pie sin el menu de navegacion */	
+	text-align:center;
+	color:#557FAA;
+	background-color:#FBFCFD;
+	background-image: url(../img/head_ef_back.png);
+}
+#pie-de-pagina a {/*define estilo a los links dentro del pie  de pagina*/
+	text-decoration:none;
+	color:#557FAA;
+}
+#pie-de-pagina a:hover {/*define estilo en el evento hover*/
+	text-decoration:underline;
+	color:#557FAA;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:20%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    width: 100xp;
+    height: 100px;
+    box-shadow: 0px 0px 1px #848484;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 15px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+.form-group::before{
+   font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 26px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{
+    content: "\f023";
+}
+
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.forgot a{
+    color: white;
+}
+.titulos {
+  color:#338AFF;
+}
